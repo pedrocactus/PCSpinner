@@ -15,17 +15,17 @@
 
 @end
 
-typedef void(^PCSpinnerCallBack)(NSIndexPath *path);
-typedef void(^PCSpinnerCallBackForHeight)(NSIndexPath *path);
+typedef UITableViewCell* (^PCSpinnerCallBack) (NSIndexPath *path);
+typedef int (^PCSpinnerCallBackForHeight) (NSIndexPath *path);
 
 @interface PCSpinner : UIView<UITableViewDataSource,UITableViewDelegate>
 
 @property(nonatomic,strong) UITableView *dropDownMenu;
 @property(nonatomic,strong) UIButton *selectedItemView;
 @property(nonatomic, strong) NSMutableDictionary *itemsDictionary;
-@property(nonatomic,strong) PCSpinnerCallBack dropDownCellForRowAtPath;
-@property(nonatomic,strong) PCSpinnerCallBackForHeight dropDownHeightForRowAtPath;
-
+@property(nonatomic,copy) PCSpinnerCallBack dropDownCellForRowAtPath;
+@property(nonatomic,copy) PCSpinnerCallBackForHeight dropDownHeightForRowAtPath;
+- (id)initWithFrame:(CGRect)frame withDictionary: (NSMutableDictionary*) dico;
 -(void)setDictionarySource: (NSMutableDictionary*) itemsDictionary;
 
 

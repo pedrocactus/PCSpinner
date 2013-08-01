@@ -18,6 +18,7 @@
 		A6580E4F17AAA6380035F701 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6580E4E17AAA6380035F701 /* Default@2x.png */; };
 		A6580E5117AAA6380035F701 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6580E5017AAA6380035F701 /* Default-568h@2x.png */; };
 		A6580E5C17AAAB470035F701 /* PCSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = A6580E5B17AAAB470035F701 /* PCSpinner.m */; };
+		E4A2786417AAE5E800A19DE8 /* PCspinnerDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A2786317AAE5E800A19DE8 /* PCspinnerDemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		A6580E5017AAA6380035F701 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A6580E5A17AAAB470035F701 /* PCSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCSpinner.h; sourceTree = "<group>"; };
 		A6580E5B17AAAB470035F701 /* PCSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCSpinner.m; sourceTree = "<group>"; };
+		E4A2786217AAE5E800A19DE8 /* PCspinnerDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCspinnerDemoViewController.h; sourceTree = "<group>"; };
+		E4A2786317AAE5E800A19DE8 /* PCspinnerDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCspinnerDemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,7 @@
 		A6580E4017AAA6380035F701 /* PCSpinner */ = {
 			isa = PBXGroup;
 			children = (
+				E4A2786117AAE5BC00A19DE8 /* Example */,
 				A6580E4917AAA6380035F701 /* AppDelegate.h */,
 				A6580E4A17AAA6380035F701 /* AppDelegate.m */,
 				A6580E4117AAA6380035F701 /* Supporting Files */,
@@ -106,6 +110,15 @@
 				A6580E5017AAA6380035F701 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4A2786117AAE5BC00A19DE8 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				E4A2786217AAE5E800A19DE8 /* PCspinnerDemoViewController.h */,
+				E4A2786317AAE5E800A19DE8 /* PCspinnerDemoViewController.m */,
+			);
+			name = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +189,7 @@
 				A6580E4717AAA6380035F701 /* main.m in Sources */,
 				A6580E4B17AAA6380035F701 /* AppDelegate.m in Sources */,
 				A6580E5C17AAAB470035F701 /* PCSpinner.m in Sources */,
+				E4A2786417AAE5E800A19DE8 /* PCspinnerDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
