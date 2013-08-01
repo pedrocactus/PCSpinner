@@ -17,7 +17,7 @@
 		A6580E4D17AAA6380035F701 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A6580E4C17AAA6380035F701 /* Default.png */; };
 		A6580E4F17AAA6380035F701 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6580E4E17AAA6380035F701 /* Default@2x.png */; };
 		A6580E5117AAA6380035F701 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6580E5017AAA6380035F701 /* Default-568h@2x.png */; };
-		A6580E5417AAA6380035F701 /* PCSpinner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6580E5217AAA6380035F701 /* PCSpinner.xcdatamodeld */; };
+		A6580E5C17AAAB470035F701 /* PCSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = A6580E5B17AAAB470035F701 /* PCSpinner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,8 @@
 		A6580E4C17AAA6380035F701 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		A6580E4E17AAA6380035F701 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A6580E5017AAA6380035F701 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		A6580E5317AAA6380035F701 /* PCSpinner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PCSpinner.xcdatamodel; sourceTree = "<group>"; };
+		A6580E5A17AAAB470035F701 /* PCSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCSpinner.h; sourceTree = "<group>"; };
+		A6580E5B17AAAB470035F701 /* PCSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCSpinner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +87,9 @@
 			children = (
 				A6580E4917AAA6380035F701 /* AppDelegate.h */,
 				A6580E4A17AAA6380035F701 /* AppDelegate.m */,
-				A6580E5217AAA6380035F701 /* PCSpinner.xcdatamodeld */,
 				A6580E4117AAA6380035F701 /* Supporting Files */,
+				A6580E5A17AAAB470035F701 /* PCSpinner.h */,
+				A6580E5B17AAAB470035F701 /* PCSpinner.m */,
 			);
 			path = PCSpinner;
 			sourceTree = "<group>";
@@ -173,7 +175,7 @@
 			files = (
 				A6580E4717AAA6380035F701 /* main.m in Sources */,
 				A6580E4B17AAA6380035F701 /* AppDelegate.m in Sources */,
-				A6580E5417AAA6380035F701 /* PCSpinner.xcdatamodeld in Sources */,
+				A6580E5C17AAAB470035F701 /* PCSpinner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,21 +290,9 @@
 				A6580E5917AAA6380035F701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		A6580E5217AAA6380035F701 /* PCSpinner.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A6580E5317AAA6380035F701 /* PCSpinner.xcdatamodel */,
-			);
-			currentVersion = A6580E5317AAA6380035F701 /* PCSpinner.xcdatamodel */;
-			path = PCSpinner.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = A6580E2D17AAA6370035F701 /* Project object */;
 }
